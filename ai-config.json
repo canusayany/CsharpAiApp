@@ -1,0 +1,24 @@
+{
+  "Services": [
+    {
+      "Name": "Qwen",
+      "Type": "OpenAI",
+      "Endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "ApiKey": "sk-",
+      "Model": "qwen2.5-coder-32b-instruct",
+      "SystemPrompt": "你是一个机器人编程助手,擅长使用lua编写机器人移动指令。"
+    },
+    {
+      "Name": "Deepseek",
+      "Type": "Ollama",
+      "Endpoint": "http://172.19.110.101:11434",
+      "ApiKey": "",
+      "Model": "deepseek-r1:70b",
+      "SystemPrompt": "你是一个专业的AI助手。请用简洁明了的方式回答问题。"
+    }
+  ],
+  "SelectServiceName": "Qwen",
+  "relevant_example": [
+    
+  ]
+}
